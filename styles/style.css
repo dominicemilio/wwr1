@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Hind+Vadodara:wght@500&display=swap');
+/* change the values below to your chosen font(s) */
+
+
+p {
+  font-family: "Hind Vadodara", Helvetica, sans-serif;
+  
+}
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.main-para {
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+#logo_link ¨{
+  padding-top: 5px;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+nav a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 35px;
+}
+
+#hero {
+  border: 1px solid olive;
+  height: 100%;
+  padding-bottom: 2rem;
+}
+
+#hero-img {
+  width: 100%;
+}
+
+h1, h2, h3, h4{
+  font-family: "Architects Daughter", sans-serif, Helvetica;
+}
+
+#hero-msg h1 {
+  text-align: center;
+  color: darkred;
+  font-family: "Architects Daughter", sans-serif, Helvetica;
+}
+
+#hero-msg h4 {
+  text-align: center;
+  color: #84a98c;
+  font-family: "Architects Daughter", sans-serif, Helvetica;
+}
+
+.home-title {
+  color: #2f3e46;
+  font-family: "Architects Daughter", sans-serif, Helvetica;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+h1 {
+  color: darkorchid;
+}
+
+h2 {
+  margin: 0;
+}
+
+h4 {
+  color: #84a98c;
+  font-family: "Architects Daughter", sans-serif, Helvetica;
+}
+
+.button-box {
+  text-align: center;
+}
+
+main section {
+  text-align: center;
+}
+
+.main section img {
+  border: 10px solid black;
+  box-sizing: border-box
+}
+
+#background {
+  height: 725px;
+  background-color: #84a98c;
+}
+
+body p{
+  font-family: "Hind Vadodara", Helvetica, sans-serif;
+}
+
+body {
+  background-color: #fcfbfb;
+  font-family: "Hind Vadodara", Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgba(20, 30, 13, 0.7);
+  display: flex;
+}
+
+header a {
+  display: inline-block;
+}
+
+nav a:hover {
+  color: black;
+}
+
+.book,
+.join {
+  color: #2f3e46;
+  font-size: 18px;
+  background-color: #d9c2a3;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.book:hover,
+.join:hover {
+  color: #84a98c;
+}
+
+.msg h2,
+.msg p {
+  color: white;
+  font-family: "Hind Vadodara", Helvetica, sans-serif; 
+}
+
+.msg {
+  background-color: brown;
+  line-height: 1.5em;
+  padding: 35px;
+  margin-top: 10rem;
+}
+
+.msg p {
+  font-size: .8em;
+  padding-bottom: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+}
+
+.card-img {
+  border: 10px solid olive;
+}
+
+footer {
+  color: #2f3e46;
+  padding: 25px 50px;
+  margin-top: 200px;
+  background-color: olivedrab;
+}
+
+footer .social img {
+  padding-top: 15px;
+}
+
+footer p {
+  font-size: 1.2em;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+footer a {
+  color: beige;
+}
+
+footer a:hover {
+  color: black;
+}
+
+.icon {
+  width: 80px;
+  padding-top: 10px;
+}
+
+.mountains {
+  margin-top: 10rem;
+}

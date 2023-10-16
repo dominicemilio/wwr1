@@ -1,0 +1,157 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Hind+Vadodara:wght@500&display=swap');
+
+/* Global Styles */
+body {
+  background-color: #fcfbfb;
+  font-family: "Hind Vadodara", Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography */
+p, body p {
+  font-family: "Hind Vadodara", Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Architects Daughter", sans-serif, Helvetica;
+}
+
+/* Header Styles */
+header {
+  background-color: rgba(20, 30, 13, 0.7);
+}
+
+/* Navigation Menu */
+nav a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 35px;
+}
+
+nav a:hover {
+  background-color: black;
+  color: #84a98c;
+}
+
+/* Page Layout */
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* Main Content */
+.main-para {
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+.main section {
+  text-align: center;
+}
+
+.main section img {
+  border: 10px solid black;
+  box-sizing: border-box;
+}
+
+#hero-img {
+  width: 100%;
+}
+
+/* Logo and Header Text */
+#logo_link {
+  padding-top: 5px;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+#hero-msg h1, #hero-msg h4 {
+  text-align: center;
+  font-family: "Architects Daughter", sans-serif, Helvetica;
+}
+
+/* Home Title */
+.home-title {
+  color: #2f3e46;
+  font-family: "Architects Daughter", sans-serif, Helvetica;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+/* Button Styles */
+.book, .join {
+  color: #2f3e46;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  background-color: #d9c2a3;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.book:hover, .join:hover {
+  color: #84a98c;
+}
+
+/* Message Section */
+.msg {
+  background-color: #6f7364;
+  line-height: 1.5em;
+  padding: 35px;
+}
+
+.msg h2, .msg p {
+  color: #2f3e46;
+  background-color: #84a98c;
+}
+
+.msg p {
+  font-size: 0.8em;
+  padding-bottom: 15px;
+}
+
+/* Card Styles */
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+}
+
+.card-img {
+  border: 10px solid black;
+}
+
+/* Footer Styles */
+footer {
+  color: #2f3e46;
+  padding: 25px 50px;
+  margin-top: 200px;
+}
+
+footer .social img {
+  padding-top: 15px;
+}
+
+footer p {
+  font-size: 1.2em;
+}
+
+footer p a, footer a {
+  color: #2f3e46;
+}
+
+footer p a:hover, footer a:hover {
+  text-decoration: underline;
+  color: #84a98c;
+}
+
+/* Icon Styles */
+.icon {
+  width: 80px;
+  padding-top: 10px;
+}
