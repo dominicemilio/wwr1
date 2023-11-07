@@ -151,7 +151,7 @@ footer a:hover {
     background-color: brown;
     color: white;
     overflow: hidden;
-    height: auto;
+    width: auto;
     height: 250px;
     padding: 35px;
     line-height: 1.5em;
@@ -172,44 +172,4 @@ footer a:hover {
     width: 500px;
     box-shadow: 5px 5px 10px #797e6c;
     text-align: center;
-}
-@media screen and (max-width: 900px) {
-    nav, #hero, .home-grid, footer {
-        display: block;
-        height: auto;
-    }
-    header {
-        grid-template-columns: 150px auto;
-    }
-    nav a {
-        display: block;
-        padding: 15px;
-    }
-    .home-title {
-        font-size: 25px;
-        color: #6f7364;
-    }
-    main section { 
-        margin: 50px auto;
-        width: 80%;
-    }
-    main section img {
-        margin-top: 5px;
-        width: 100%;
-        box-sizing: border-box;
-    }
-    footer {
-        margin-top: 25px;
-    }
-    .rivers-grid {
-        display: block;
-        margin: 10px;
-    }
-    .rivers-title {
-        margin: 25px;
-    }
-    .river1-text, .river2-text {
-        overflow: visible;
-        height: auto;
-    }
 }
