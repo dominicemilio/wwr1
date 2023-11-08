@@ -102,7 +102,7 @@ h2 {
 }
 
 h4 {
-  color: #84a98c;
+  color:#6f7364 ;
   font-family: "Architects Daughter", sans-serif, Helvetica;
 }
 
@@ -121,7 +121,7 @@ main section {
 
 #background {
   height: 725px;
-  background-color: #84a98c;
+  background-color: #6f7364;
   grid-column: 1/11;
   grid-row: 4/9; 
 }
@@ -228,7 +228,7 @@ footer {
   color: #2f3e46;
   padding: 25px 50px;
   margin-top: 200px;
-  background-color: olivedrab;
+  background-color: #6f7364;
   display: flex;
   justify-content: space-around;
   align-items: center;
