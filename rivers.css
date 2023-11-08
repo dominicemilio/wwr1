@@ -130,7 +130,7 @@ footer a:hover {
     justify-self: stretch;
     text-align: center;
 }
-.river1-img {
+.river1-pic {
     grid-column: 1/2;
     grid-row: 2/3;
     width: 100%;
@@ -140,13 +140,13 @@ footer a:hover {
     grid-column: 1/2;
     grid-row: 3/4;
 }
-.river2-img {
+.river2-pic {
     grid-column: 2/3;
     grid-row: 2/3;
     width: 100%;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.river1-img, .river2-img {
+.river1-pic, .river2-pic {
     width: 90%;
 }
 .river2-text {
