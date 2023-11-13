@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Hind+Vadodara:wght@500&display=swap');
+
+/* Global Styles */
+body {
+    background-color: #fff;
+    font-family: "Hind Vadodara", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: darkolivegreen;
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+
+img.logo {
+    width: 80px;
+}
+
+#logo_link {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+    padding-top: 5px;
+}
+
+/* Navigation Styles */
+nav {
+    grid-row: 1/2;
+    grid-column: 2/7;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+    width: 100%;
+    height: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    font-size: 25px;
+    padding: 35px;
+    text-align: center;
+}
+
+nav a:hover {
+    color: black;
+}
+
+/* Book Button Styles */
+.book {
+    background-color: #d9c2a3;
+    color: black;
+    padding: 15px 30px;
+    margin-top: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.book:hover {
+    background-color: #9d9c88;
+    color: #fcfbfb;
+}
+
+/* Home Grid Styles */
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+h2 {
+    font-family: "Architects Daughter";
+}
+
+/* Main Section Styles */
+main section {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 100%;
+}
+
+main section img {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Footer Styles */
+footer {
+    background-color: darkolivegreen;
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 25px 50px;
+}
+
+footer .social img {
+    padding-top: 15px;
+    width: 50px;
+    display: inline-block;
+}
+
+footer h3, footer a {
+    color: white;
+    font-family: "Hind Vadodara";
+    font-weight: 400;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.social {
+    justify-self: end;
+}
+
+.active {
+    color: #d9c2a3;
+    background-color: black;
+}
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    display: none; /* make this element invisible until we are ready for it */
+}
+
+.moveDown {
+    margin-top: 3em;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
